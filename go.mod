@@ -3,7 +3,7 @@ module github.com/RTradeLtd/ca-cli
 go 1.13
 
 require (
-	github.com/RTradeLtd/ca-certificates v0.14.0-rc2
+	github.com/RTradeLtd/ca-certificates v0.14.0
 	github.com/RTradeLtd/ca-certinfo v0.0.0-20191122224953-c439bc1db910
 	github.com/ThomasRooney/gexpect v0.0.0-20161231170123-5482f0350944
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e

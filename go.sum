@@ -2,10 +2,8 @@ github.com/AndreasBriese/bbloom v0.0.0-20190306092124-e2d15f34fcf9 h1:HD8gA2tkBy
 github.com/AndreasBriese/bbloom v0.0.0-20190306092124-e2d15f34fcf9/go.mod h1:bOvUY6CB00SOBii9/FifXqc0awNKxLFCL/+pkDPuyl8=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/OpenPeeDeeP/depguard v1.0.0/go.mod h1:7/4sitnI9YlQgTLLk734QlzXT8DuHVnAyztLplQjk+o=
-github.com/RTradeLtd/ca-certificates v0.13.3 h1:/hQDzol/l8RjImpg4G976eIMuLw8KGmu8YtXreN0G7g=
-github.com/RTradeLtd/ca-certificates v0.13.3/go.mod h1:aF50mBJ7zNB7GTk267Wmo7p/DQajRKsT+/CTuwJwmwA=
-github.com/RTradeLtd/ca-certificates v0.14.0-rc2 h1:KY9NxScI0zUDsVoD+rvp8D0QZNWUE+qVBE/f7GHScOA=
-github.com/RTradeLtd/ca-certificates v0.14.0-rc2/go.mod h1:rihjV7hYwfXKMp/ech+S5CyXm+B+LVyLEC2cJWOu9ik=
+github.com/RTradeLtd/ca-certificates v0.14.0 h1:ir4tc4CQsBeILzasH9pvIF9Mhygw++ECtpFfJ899yi0=
+github.com/RTradeLtd/ca-certificates v0.14.0/go.mod h1:rihjV7hYwfXKMp/ech+S5CyXm+B+LVyLEC2cJWOu9ik=
 github.com/RTradeLtd/ca-certinfo v0.0.0-20191122224953-c439bc1db910 h1:agVgwg3mvy23vAyDA0NUO02R8Bvlt1Co8WMhjCfBjeI=
 github.com/RTradeLtd/ca-certinfo v0.0.0-20191122224953-c439bc1db910/go.mod h1:LR+LZerdGZtMmIIvfN9WNMDJmW81Po4Nw5o8uabnj4k=
 github.com/RTradeLtd/ca-cli v0.14.0-rc.1.0.20191122224146-ae0d84f43064/go.mod h1:ly8jVNPqrgewD8JNUPDzE7vpI1G1hPvYph+vKjP0kY8=
