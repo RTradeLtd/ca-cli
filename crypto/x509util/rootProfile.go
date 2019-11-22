@@ -46,7 +46,7 @@ func defaultRootTemplate(cn string) *x509.Certificate {
 		NotAfter:              notBefore.Add(DefaultRootCertValidity),
 		KeyUsage:              x509.KeyUsageCertSign | x509.KeyUsageCRLSign,
 		BasicConstraintsValid: true,
-		MaxPathLen:            1,
+		MaxPathLen:            12,
 		MaxPathLenZero:        false,
 		Issuer:                pkix.Name{CommonName: cn},
 		Subject:               pkix.Name{CommonName: cn},

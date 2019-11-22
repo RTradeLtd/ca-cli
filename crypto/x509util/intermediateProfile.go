@@ -34,7 +34,7 @@ func defaultIntermediateTemplate(name string) *x509.Certificate {
 		NotAfter:              notBefore.Add(DefaultIntermediateCertValidity),
 		KeyUsage:              x509.KeyUsageCertSign | x509.KeyUsageCRLSign,
 		BasicConstraintsValid: true,
-		MaxPathLen:            0,
+		MaxPathLen:            12,
 		MaxPathLenZero:        true,
 		Issuer:                pkix.Name{CommonName: name},
 		Subject:               pkix.Name{CommonName: name},
