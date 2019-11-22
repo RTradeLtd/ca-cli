@@ -5,8 +5,8 @@ import (
 	"crypto/x509"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
+	"github.com/pkg/errors"
 )
 
 var urlPrefixes = []string{"https://", "tcp://", "tls://"}

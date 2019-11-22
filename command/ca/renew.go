@@ -15,7 +15,6 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/api"
 	"github.com/RTradeLtd/ca-certificates/ca"
 	"github.com/RTradeLtd/ca-cli/command"
@@ -27,6 +26,7 @@ import (
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
 	"github.com/RTradeLtd/ca-cli/utils/cautils"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

@@ -14,7 +14,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/acme"
 	acmeAPI "github.com/RTradeLtd/ca-certificates/acme/api"
 	"github.com/RTradeLtd/ca-certificates/ca"
@@ -24,6 +23,7 @@ import (
 	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

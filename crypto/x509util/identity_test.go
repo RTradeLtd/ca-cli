@@ -3,9 +3,9 @@ package x509util
 import (
 	"testing"
 
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 )
 
 func TestLoadIdentityFromDisk(t *testing.T) {

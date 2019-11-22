@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-cli/usage"
+	"github.com/smallstep/assert"
 )
 
 func TestHelpQuality(t *testing.T) {

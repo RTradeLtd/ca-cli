@@ -16,12 +16,12 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"github.com/RTradeLtd/ca-cli/errs"
 	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 	"golang.org/x/crypto/ed25519"
 )
 

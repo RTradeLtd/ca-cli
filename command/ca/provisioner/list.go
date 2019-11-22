@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/pki"
 	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

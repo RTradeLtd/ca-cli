@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/config"
 	"github.com/RTradeLtd/ca-cli/usage"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

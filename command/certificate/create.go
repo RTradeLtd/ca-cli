@@ -5,7 +5,6 @@ import (
 	"crypto/x509/pkix"
 	"encoding/pem"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
@@ -15,6 +14,7 @@ import (
 	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
+	"github.com/smallstep/assert"
 	jose "gopkg.in/square/go-jose.v2"
 )
 

@@ -5,7 +5,6 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/ca"
 	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/RTradeLtd/ca-cli/config"
@@ -15,6 +14,7 @@ import (
 	"github.com/RTradeLtd/ca-cli/flags"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 	"github.com/smallstep/truststore"
 	"github.com/urfave/cli"
 )

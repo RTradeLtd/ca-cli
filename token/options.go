@@ -5,9 +5,9 @@ import (
 	"encoding/hex"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 )
 
 // Options is a function that set claims.

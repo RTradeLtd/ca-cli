@@ -7,9 +7,9 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
+	"github.com/pkg/errors"
 	"golang.org/x/crypto/ed25519"
 )
 

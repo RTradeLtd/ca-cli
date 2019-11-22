@@ -9,11 +9,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/RTradeLtd/ca-cli/flags"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

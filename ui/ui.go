@@ -6,10 +6,10 @@ import (
 	"syscall"
 	"text/template"
 
+	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 	"github.com/chzyer/readline"
 	"github.com/manifoldco/promptui"
 	"github.com/pkg/errors"
-	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 )
 
 // stderr implements an io.WriteCloser that skips the terminal bell character

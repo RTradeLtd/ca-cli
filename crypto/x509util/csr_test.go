@@ -7,9 +7,9 @@ import (
 	"encoding/pem"
 	"testing"
 
+	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
 )
 
 func TestCSR_LoadCSRFromBytes(t *testing.T) {

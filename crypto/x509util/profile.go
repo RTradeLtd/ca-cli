@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 )
 
 var (

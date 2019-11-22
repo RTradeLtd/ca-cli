@@ -16,8 +16,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

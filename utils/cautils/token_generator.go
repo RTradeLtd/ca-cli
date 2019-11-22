@@ -9,7 +9,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/pki"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
@@ -19,6 +18,7 @@ import (
 	"github.com/RTradeLtd/ca-cli/token"
 	"github.com/RTradeLtd/ca-cli/token/provision"
 	"github.com/RTradeLtd/ca-cli/ui"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

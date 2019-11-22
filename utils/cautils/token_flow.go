@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/pki"
 	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

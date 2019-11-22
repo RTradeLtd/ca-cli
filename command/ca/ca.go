@@ -4,9 +4,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/RTradeLtd/ca-cli/command/ca/provisioner"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
 	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

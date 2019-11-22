@@ -1,7 +1,6 @@
 package crypto
 
 import (
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
@@ -10,6 +9,7 @@ import (
 	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

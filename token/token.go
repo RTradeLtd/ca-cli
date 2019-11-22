@@ -5,9 +5,9 @@ import (
 	"encoding/base64"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 )
 
 const (

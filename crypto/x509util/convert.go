@@ -3,8 +3,8 @@ package x509util
 import (
 	"crypto/x509"
 
-	"github.com/pkg/errors"
 	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
+	"github.com/pkg/errors"
 )
 
 // ParseCertificate parses a single certificate from the given ASN.1 DER data.

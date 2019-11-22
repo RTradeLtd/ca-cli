@@ -8,9 +8,9 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

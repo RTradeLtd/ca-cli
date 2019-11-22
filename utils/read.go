@@ -9,9 +9,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/RTradeLtd/ca-cli/ui"
+	"github.com/pkg/errors"
 )
 
 // In command line utilities, it is a de facto standard that a hyphen "-"

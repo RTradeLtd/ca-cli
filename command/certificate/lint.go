@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/pkg/errors"
 	zx509 "github.com/smallstep/zcrypto/x509"
 	"github.com/smallstep/zlint"
 	"github.com/urfave/cli"

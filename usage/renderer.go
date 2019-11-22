@@ -10,8 +10,8 @@ import (
 	"text/tabwriter"
 	"unicode"
 
-	"github.com/samfoo/ansi"
 	md "github.com/RTradeLtd/ca-cli/pkg/blackfriday"
+	"github.com/samfoo/ansi"
 )
 
 // Render renders the given data with a custom markdown renderer.

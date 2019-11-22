@@ -4,8 +4,8 @@ import (
 	"crypto/x509"
 	"io/ioutil"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/pkg/errors"
 )
 
 // Identity contains a public/private x509 certificate/key pair.

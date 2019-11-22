@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/pquerna/otp"
 	"github.com/pquerna/otp/totp"
-	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/urfave/cli"
 )
 

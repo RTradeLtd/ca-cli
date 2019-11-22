@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/pkg/errors"
 	"golang.org/x/crypto/ed25519"
 )
 

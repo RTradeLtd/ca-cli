@@ -9,7 +9,6 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-certificates/authority"
 	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
@@ -18,6 +17,7 @@ import (
 	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 	"golang.org/x/crypto/ed25519"
 )

@@ -13,9 +13,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/ui"
+	"github.com/pkg/errors"
 	"golang.org/x/crypto/ed25519"
 	jose "gopkg.in/square/go-jose.v2"
 )

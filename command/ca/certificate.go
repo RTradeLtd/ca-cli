@@ -3,7 +3,6 @@ package ca
 import (
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/errs"
@@ -11,6 +10,7 @@ import (
 	"github.com/RTradeLtd/ca-cli/token"
 	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/RTradeLtd/ca-cli/utils/cautils"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

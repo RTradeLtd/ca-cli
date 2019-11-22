@@ -3,9 +3,9 @@ package cautils
 import (
 	"crypto/x509"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/ui"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 

@@ -4,8 +4,8 @@ import (
 	"crypto/subtle"
 	"strconv"
 
-	"github.com/pkg/errors"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
+	"github.com/pkg/errors"
 
 	"golang.org/x/crypto/argon2"
 	"golang.org/x/crypto/bcrypt"

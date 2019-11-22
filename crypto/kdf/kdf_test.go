@@ -3,8 +3,8 @@ package kdf
 import (
 	"testing"
 
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
+	"github.com/smallstep/assert"
 )
 
 func TestKDF(t *testing.T) {

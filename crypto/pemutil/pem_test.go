@@ -14,10 +14,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pkg/errors"
-	"github.com/smallstep/assert"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
+	"github.com/pkg/errors"
+	"github.com/smallstep/assert"
 	"golang.org/x/crypto/ed25519"
 )
 

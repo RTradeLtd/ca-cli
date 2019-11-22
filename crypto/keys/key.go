@@ -8,8 +8,8 @@ import (
 	"crypto/x509"
 	"math/big"
 
-	"github.com/pkg/errors"
 	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
+	"github.com/pkg/errors"
 	"golang.org/x/crypto/ed25519"
 )
 

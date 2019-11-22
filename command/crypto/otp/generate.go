@@ -6,12 +6,12 @@ import (
 	"image/png"
 	"strings"
 
-	"github.com/pquerna/otp"
-	"github.com/pquerna/otp/totp"
 	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/RTradeLtd/ca-cli/flags"
 	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/pquerna/otp"
+	"github.com/pquerna/otp/totp"
 	"github.com/urfave/cli"
 )
 

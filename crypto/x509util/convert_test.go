@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/smallstep/assert"
 	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
+	"github.com/smallstep/assert"
 )
 
 const p256Cert = `-----BEGIN CERTIFICATE-----
