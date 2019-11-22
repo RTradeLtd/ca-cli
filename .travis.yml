@@ -16,17 +16,16 @@ script:
 - make
 - make artifacts
 after_success:
-- bash <(curl -s https://codecov.io/bash) -t "$CODECOV_TOKEN" || echo "Codecov did not collect coverage reports"
+- bash <(curl -s https://codecov.io/bash) -t "$CODECOV_TOKEN" || echo "Codecov did
+  not collect coverage reports"
 notifications:
   email: false
 stage: Github Release
 deploy:
   provider: releases
-  skip_cleanup: true
   api_key:
-    secure: MKpeFlxcZVzAoLabK841JAcnWpMvpGV76qQMPOw6+Vi7DNnuzvebKHmUQ4Kubqx14FU7zUMrebMe1eSvYgiVGG731wihKi1/iypWyDtcumTRHNOk0KSw7BxBfPruHG/1uesymovTAcXzSQb/LBQP/ZfNVTaSoXTeWuXjf1BsznpJLvNMy4DXup62B+o5vYScxJuLBOwuQI33PMeryVtrwffuRu4ybr6b6B8cXB5xfzPwNJzhoKo9f3guqjPZu4enkLZf+REjOugCYA+e1l0rt4wFO9DJ4WAFi0gagCTC0PjXwAgbhJzCD0KriKuaCo4k4ZPYayZZkfas2KZ6koP1nXM7BpdBj5khEZwQBoFWGN3oY+9PmbK1k1HnThIKQFOUJVbOKwC5vFPqyq28ZU3lyXuB02+4XeY8jXJKwCqLkicKi5PE0UCV1KHo1Wf+2kJ3l5tzS3FJLcJYSbDzRpJ3uBHEN3Ksup2/P6g9m+2t1u5+lKt11hSucEsSuJa8bbuuCVlP9PaKvAkKk88XXFWCmieqQOOLJyTt8qXwJp1X8H/S4fiNuMP875J9LFUf66JVUH+gnSYkvA/XaoppRFevj30tCbLfy912ZksycnmZYMJOpxYOIvLtnG6ZFQQC48jJ10Tu+AkaDC37cv0mesEMcq4E2Krt/BfHEQSgO6ontG4=
+    secure: FzF8uZXbyIZky7UUNMJxZ+8Oxj2d8Ig46hzVVhSDMuurZMFlfrgvFmzWCNgtoC+7G5Cv3BNJxiC29vAR3uAKhtsYIVgoMUUlZbxQ23Gzk7+m3Wmt4yxI1nytk8mLsaQgipA7i/WxN3tRbC+M+QpBSiB15vQEXcDPZIrRwLVtaZWz94dy1bSFsDv/OmgEKKW7R/wTBv4+QUdwxicNcTo9xrMBtjV49qKH6aqurLn5LPaxjIiHsA1Pj8nCgKx1GZq2Yg/Rmr62lmxxcsFg34n7XRvDgQMXM0/IHLrhgCbBi+qBJ0f/Rdk2XxnDpA/pwK1DB61DY7rIStKeUs3s8c6fnCMZFiKebK8ZsEMPfKy+yiSTqgeHH7nbJdj0kpu9JvFVfPabLVcYwMaEFM64JgwuRXYM0jP0HZTlwVOvPEGXa0XM9dt/eLGrGAN0rxsI8mp4I7yEy9JvTtWN09ngsUvx936ZErWOuqcK+0Sh1jbrd2rPKyunOOMCLpO3DneBMM3vfZJZ1LEVLG26cyG5HLFymn7IShq5T6BBxNLAQcIa/3yHvdmhzOCgb5BkpkbxXhR6YJ6C+cSXOjMvCosxbgI0NAt5RQBCa85ReeytOxqEN2afwbmeo4HFP/A3tgznkzlj4ewXIT5fNGAOoeo5YMbrP6AT7xetprQ8c7qSEkTruxY=
   file_glob: true
   file: .travis-releases/*
   on:
-    repo: smallstep/cli
-    tags: true
+    repo: RTradeLtd/ca-cli
