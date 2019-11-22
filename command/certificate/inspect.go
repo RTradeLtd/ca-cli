@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certinfo"
+	"github.com/RTradeLtd/ca-certinfo"
 	"github.com/RTradeLtd/ca-cli/errs"
 	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
 	"github.com/RTradeLtd/ca-cli/utils"

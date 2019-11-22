@@ -18,7 +18,7 @@ e.g. `v1.0.2`
 1. **Update smallstep/certificates.**
 
     ```
-    $ go get -u github.com/smallstep/certificates
+    $ go get -u github.com/RTradeLtd/ca-certificates
     ```
 
 2. **Commit all changes.**
@@ -92,7 +92,7 @@ e.g. `v1.0.2`
     * **step_1.0.3_linux_amd64.tar.gz**: tarball containing a statically compiled linux binary.
     * **step_1.0.3_darwin_amd64.tar.gz**: tarball containing a statically compiled darwin binary.
 
-5. **Release [`smallstep/certificates`](https://github.com/smallstep/certificates/blob/master/distribution.md).**
+5. **Release [`smallstep/certificates`](https://github.com/RTradeLtd/ca-certificates/blob/master/distribution.md).**
 
 6. **Update the AUR Arch Linux packages**
 

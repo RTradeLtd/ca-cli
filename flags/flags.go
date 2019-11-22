@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/smallstep/certificates/api"
+	"github.com/RTradeLtd/ca-certificates/api"
 	"github.com/RTradeLtd/ca-cli/config"
 	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/urfave/cli"

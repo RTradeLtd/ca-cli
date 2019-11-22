@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/ca"
+	"github.com/RTradeLtd/ca-certificates/ca"
 	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/RTradeLtd/ca-cli/config"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"

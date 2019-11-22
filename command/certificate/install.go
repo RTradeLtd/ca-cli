@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certinfo"
+	"github.com/RTradeLtd/ca-certinfo"
 	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/errs"

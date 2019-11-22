@@ -1,6 +1,6 @@
 # Step CLI
 
-`step` is a zero trust swiss army knife that integrates with [`step-ca`](https://github.com/smallstep/certificates) for automated certificate management. It's an easy-to-use and hard-to-misuse utility for building, operating, and automating systems that use zero trust technologies like authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+`step` is a zero trust swiss army knife that integrates with [`step-ca`](https://github.com/RTradeLtd/ca-certificates) for automated certificate management. It's an easy-to-use and hard-to-misuse utility for building, operating, and automating systems that use zero trust technologies like authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
 
 [Website](https://smallstep.com) |
 [Documentation](https://smallstep.com/docs/cli) |
@@ -46,7 +46,7 @@
 - [Install root certificates](https://smallstep.com/docs/cli/certificate/install/) so your CA is trusted by default (issue development certificates **that [work in browsers](https://smallstep.com/blog/step-v0-8-6-valid-HTTPS-certificates-for-dev-pre-prod.html)**)
 - Get certificates from any ACME compliant CA (*coming soon*)
 
-### Connect to [`step-ca`](https://github.com/smallstep/certificates) and get certificates from your own private certificate authority
+### Connect to [`step-ca`](https://github.com/RTradeLtd/ca-certificates) and get certificates from your own private certificate authority
 
 - [Authenticate and obtain a certificate](https://smallstep.com/docs/cli/ca/certificate/) using any enrollment mechanism supported by `step-ca`
 - Securely [distribute root certificates](https://smallstep.com/docs/cli/ca/root/) and [bootstrap](https://smallstep.com/docs/cli/ca/bootstrap/) PKI relying parties
@@ -102,7 +102,7 @@ We are using the [Arch User Repository](https://aur.archlinux.org) to distribute
 `step` binaries for Arch Linux.
 
 * The `step-cli` binary tarball can be found [here](https://aur.archlinux.org/packages/step-cli-bin/).
-* The `step-ca` binary tarball (for [step certificates](https://github.com/smallstep/certificates) -
+* The `step-ca` binary tarball (for [step certificates](https://github.com/RTradeLtd/ca-certificates) -
 a sibling repository) can be found [here](https://aur.archlinux.org/packages/step-ca-bin/).
 
 You can use [pacman](https://www.archlinux.org/pacman/) to install the packages.
@@ -125,7 +125,7 @@ Certificate:
 
 ### X.509 Certificates from `step-ca`
 
-This example assumes you already have [`step-ca`](https://github.com/smallstep/certificates) running at `https://ca.local`.
+This example assumes you already have [`step-ca`](https://github.com/RTradeLtd/ca-certificates) running at `https://ca.local`.
 
 Get your root certificate fingerprint from the machine running `step-ca`:
 
@@ -380,6 +380,6 @@ network - we're eager to help solve problems in this space.
 
 * Check out our [blog](https://smallstep.com/blog).
 * Eliminate the pain of managing a PKI with [`step
-certificates`](https://github.com/smallstep/certificates) - an online
+certificates`](https://github.com/RTradeLtd/ca-certificates) - an online
 certificate authority and related tools for secure automated certificate
 management, so you can use TLS everywhere.

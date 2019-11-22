@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/pki"
 	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 	"github.com/RTradeLtd/ca-cli/errs"

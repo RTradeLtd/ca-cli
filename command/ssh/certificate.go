@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/api"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/RTradeLtd/ca-cli/crypto/keys"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
@@ -78,7 +78,7 @@ func certificateCommand() cli.Command {
 [**--token**=<token>] [**--issuer**=<name>] [**--ca-url**=<uri>]
 [**--root**=<file>] [**--no-password**] [**--insecure**] [**--force**]`,
 		Description: `**step ssh certificate** command generates an SSH key pair and creates a
-certificate using [step certificates](https://github.com/smallstep/certificates).
+certificate using [step certificates](https://github.com/RTradeLtd/ca-certificates).
 
 With a certificate clients or servers may trust only the CA key and verify its
 signature on a certificate rather than trusting many user/host keys.

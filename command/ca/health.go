@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/smallstep/certificates/ca"
+	"github.com/RTradeLtd/ca-certificates/ca"
 	"github.com/RTradeLtd/ca-cli/crypto/pki"
 	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/RTradeLtd/ca-cli/flags"

@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/api"
+	"github.com/RTradeLtd/ca-certificates/authority"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/crypto/x509util"
 	"github.com/RTradeLtd/ca-cli/utils"

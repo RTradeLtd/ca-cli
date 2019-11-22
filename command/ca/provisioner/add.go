@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/RTradeLtd/ca-certificates/authority"
+	"github.com/RTradeLtd/ca-certificates/authority/provisioner"
 	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
 	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/RTradeLtd/ca-cli/flags"
