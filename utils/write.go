@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/command"
-	"github.com/smallstep/cli/ui"
+	"github.com/RTradeLtd/ca-cli/command"
+	"github.com/RTradeLtd/ca-cli/ui"
 )
 
 var (

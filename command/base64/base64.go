@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/command"
-	"github.com/smallstep/cli/utils"
+	"github.com/RTradeLtd/ca-cli/command"
+	"github.com/RTradeLtd/ca-cli/utils"
 	"github.com/urfave/cli"
 )
 

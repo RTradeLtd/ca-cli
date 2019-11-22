@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/ui"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/ui"
 	"golang.org/x/crypto/ed25519"
 	jose "gopkg.in/square/go-jose.v2"
 )

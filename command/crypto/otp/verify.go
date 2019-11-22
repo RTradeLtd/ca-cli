@@ -9,7 +9,7 @@ import (
 
 	"github.com/pquerna/otp"
 	"github.com/pquerna/otp/totp"
-	"github.com/smallstep/cli/errs"
+	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/urfave/cli"
 )
 

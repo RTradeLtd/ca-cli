@@ -1,4 +1,4 @@
-module github.com/smallstep/cli
+module github.com/RTradeLtd/ca-cli
 
 go 1.13
 
@@ -25,6 +25,7 @@ require (
 	github.com/smallstep/assert v0.0.0-20180720014142-de77670473b5
 	github.com/smallstep/certificates v0.14.0-rc.1.0.20191030004513-ff13b2a6991d
 	github.com/smallstep/certinfo v0.0.0-20191029235839-00563809d483
+	github.com/smallstep/cli v0.13.4-0.20191014220846-775cfe98ef76
 	github.com/smallstep/nosql v0.1.1 // indirect
 	github.com/smallstep/truststore v0.9.3
 	github.com/smallstep/zcrypto v0.0.0-20191030000234-ab27e7ba0886

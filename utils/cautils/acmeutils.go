@@ -18,12 +18,12 @@ import (
 	"github.com/smallstep/certificates/acme"
 	acmeAPI "github.com/smallstep/certificates/acme/api"
 	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/cli/crypto/keys"
-	"github.com/smallstep/cli/crypto/pki"
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/jose"
-	"github.com/smallstep/cli/ui"
-	"github.com/smallstep/cli/utils"
+	"github.com/RTradeLtd/ca-cli/crypto/keys"
+	"github.com/RTradeLtd/ca-cli/crypto/pki"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/RTradeLtd/ca-cli/ui"
+	"github.com/RTradeLtd/ca-cli/utils"
 	"github.com/urfave/cli"
 )
 

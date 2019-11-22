@@ -14,10 +14,10 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/keys"
-	"github.com/smallstep/cli/crypto/pemutil"
-	stepx509 "github.com/smallstep/cli/pkg/x509"
-	"github.com/smallstep/cli/utils"
+	"github.com/RTradeLtd/ca-cli/crypto/keys"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
+	"github.com/RTradeLtd/ca-cli/utils"
 )
 
 var (

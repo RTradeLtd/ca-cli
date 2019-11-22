@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/keys"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-cli/crypto/keys"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 const (

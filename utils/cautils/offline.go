@@ -14,9 +14,9 @@ import (
 	"github.com/smallstep/certificates/api"
 	"github.com/smallstep/certificates/authority"
 	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/crypto/x509util"
-	"github.com/smallstep/cli/utils"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/crypto/x509util"
+	"github.com/RTradeLtd/ca-cli/utils"
 	"github.com/urfave/cli"
 	"golang.org/x/crypto/ssh"
 )

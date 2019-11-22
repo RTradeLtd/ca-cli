@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 func TestOptions(t *testing.T) {

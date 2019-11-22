@@ -18,7 +18,7 @@ VERSION := $(or $(VERSION),$(shell ./.version.sh .VERSION))
 changelog:
 	$Q echo "step-cli ($(VERSION)) unstable; urgency=medium" > debian/changelog
 	$Q echo >> debian/changelog
-	$Q echo "  * See https://github.com/smallstep/cli/releases" >> debian/changelog
+	$Q echo "  * See https://github.com/RTradeLtd/ca-cli/releases" >> debian/changelog
 	$Q echo >> debian/changelog
 	$Q echo " -- Smallstep Labs, Inc. <techadmin@smallstep.com>  $(shell date -uR)" >> debian/changelog
 

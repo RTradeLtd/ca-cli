@@ -11,8 +11,8 @@ should exist within its own package if possible. For example, `version` and
 
 Any package used by a command but does not contain explicit business logic
 directly related to the command should exist in the top-level of this
-repository. For example, the `github.com/smallstep/cli/flags` and
-`github.com/smallstep/cli/errs` package are used by many different commands and
+repository. For example, the `github.com/RTradeLtd/ca-cli/flags` and
+`github.com/RTradeLtd/ca-cli/errs` package are used by many different commands and
 contain functionality for defining flags and creating/manipulating errors.
 
 ### Adding a Command
@@ -29,8 +29,8 @@ package validate
 import (
   "github.com/urfave/cli"
 
-  "github.com/smallstep/cli/command"
-  "github.com/smallstep/cli/flags"
+  "github.com/RTradeLtd/ca-cli/command"
+  "github.com/RTradeLtd/ca-cli/flags"
 )
 
 func init() {
@@ -57,7 +57,7 @@ package main
 import (
   "github.com/urfave/cli"
 
-  _ "github.com/smallstep/cli/validate"
+  _ "github.com/RTradeLtd/ca-cli/validate"
 )
 ```
 
@@ -68,10 +68,10 @@ and thus registered with the `smallstep/cli/command`.
 
 There are three packages which contain functionality to make writing commands easier:
 
-- `github.com/smallstep/cli/usage`
-- `github.com/smallstep/cli/flags`
-- `github.com/smallstep/cli/prompts`
-- `github.com/smallstep/cli/errs`
+- `github.com/RTradeLtd/ca-cli/usage`
+- `github.com/RTradeLtd/ca-cli/flags`
+- `github.com/RTradeLtd/ca-cli/prompts`
+- `github.com/RTradeLtd/ca-cli/errs`
 
 The usage package is used to extend the default documentation provided by
 `urfave/cli` by enabling us to document arguments, whether they are optional or

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"text/template"
 
-	md "github.com/smallstep/cli/pkg/blackfriday"
+	md "github.com/RTradeLtd/ca-cli/pkg/blackfriday"
 	"github.com/urfave/cli"
 )
 

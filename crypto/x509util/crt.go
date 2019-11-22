@@ -15,7 +15,7 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/errs"
+	"github.com/RTradeLtd/ca-cli/errs"
 	"golang.org/x/crypto/ed25519"
 )
 

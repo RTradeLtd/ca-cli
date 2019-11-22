@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/ui"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/ui"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/jose"
-	"github.com/smallstep/cli/utils"
+	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/RTradeLtd/ca-cli/utils"
 	"github.com/urfave/cli"
 )
 

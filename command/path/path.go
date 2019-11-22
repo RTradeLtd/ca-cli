@@ -3,8 +3,8 @@ package path
 import (
 	"fmt"
 
-	"github.com/smallstep/cli/command"
-	"github.com/smallstep/cli/config"
+	"github.com/RTradeLtd/ca-cli/command"
+	"github.com/RTradeLtd/ca-cli/config"
 	"github.com/urfave/cli"
 )
 

@@ -4,13 +4,13 @@ import (
 	"encoding/pem"
 	"fmt"
 
-	"github.com/smallstep/cli/flags"
-	"github.com/smallstep/cli/ui"
+	"github.com/RTradeLtd/ca-cli/flags"
+	"github.com/RTradeLtd/ca-cli/ui"
 
-	"github.com/smallstep/cli/command"
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/utils"
+	"github.com/RTradeLtd/ca-cli/command"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/utils"
 	"github.com/urfave/cli"
 )
 

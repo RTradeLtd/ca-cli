@@ -3,7 +3,7 @@ package tlsutil
 import (
 	"crypto/tls"
 
-	"github.com/smallstep/cli/crypto/x509util"
+	"github.com/RTradeLtd/ca-cli/crypto/x509util"
 )
 
 // TLSOptions represents the TLS options that can be specified on *tls.Config

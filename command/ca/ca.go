@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/command"
-	"github.com/smallstep/cli/command/ca/provisioner"
+	"github.com/RTradeLtd/ca-cli/command"
+	"github.com/RTradeLtd/ca-cli/command/ca/provisioner"
 	"github.com/urfave/cli"
 )
 

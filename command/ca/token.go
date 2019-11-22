@@ -5,12 +5,12 @@ import (
 	"os"
 
 	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/cli/command"
-	"github.com/smallstep/cli/crypto/pki"
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/flags"
-	"github.com/smallstep/cli/utils"
-	"github.com/smallstep/cli/utils/cautils"
+	"github.com/RTradeLtd/ca-cli/command"
+	"github.com/RTradeLtd/ca-cli/crypto/pki"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/flags"
+	"github.com/RTradeLtd/ca-cli/utils"
+	"github.com/RTradeLtd/ca-cli/utils/cautils"
 	"github.com/urfave/cli"
 )
 

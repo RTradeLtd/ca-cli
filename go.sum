@@ -2,6 +2,8 @@ github.com/AndreasBriese/bbloom v0.0.0-20190306092124-e2d15f34fcf9 h1:HD8gA2tkBy
 github.com/AndreasBriese/bbloom v0.0.0-20190306092124-e2d15f34fcf9/go.mod h1:bOvUY6CB00SOBii9/FifXqc0awNKxLFCL/+pkDPuyl8=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/OpenPeeDeeP/depguard v1.0.0/go.mod h1:7/4sitnI9YlQgTLLk734QlzXT8DuHVnAyztLplQjk+o=
+github.com/RTradeLtd/ca-cli v0.13.3/go.mod h1:zGPm8vWCqzvDqkdC1laFJNdIOjNSB8V4qDp68Ny538o=
+github.com/RTradeLtd/ca-cli v0.13.4-0.20191014220846-775cfe98ef76 h1:iNh6x3czCb/01npI8/o4UdvfmTXJkjwVsBOfcXWvmAs=
 github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6/go.mod h1:3eOhrUMpNV+6aFIbp5/iudMxNCF27Vw2OZgy4xEx0Fg=
 github.com/ThomasRooney/gexpect v0.0.0-20161231170123-5482f0350944 h1:CjexZrggt4RldpEUXFZf52vSO3cnmFaqW6B4wADj05Q=
 github.com/ThomasRooney/gexpect v0.0.0-20161231170123-5482f0350944/go.mod h1:sPML5WwI6oxLRLPuuqbtoOKhtmpVDCYtwsps+I+vjIY=
@@ -170,6 +172,7 @@ github.com/smallstep/certinfo v0.0.0-20191008000228-b0e530932339/go.mod h1:n4YHP
 github.com/smallstep/certinfo v0.0.0-20191029235839-00563809d483 h1:D7D2SPv6XS5wqTejlecJdRJdnsuehQ1s4NaKssQHUwo=
 github.com/smallstep/certinfo v0.0.0-20191029235839-00563809d483/go.mod h1:xmx5n8+7jI0lrjTUwc8WMMqXeOHRyxYUW9U1wrvP3Vo=
 github.com/smallstep/cli v0.13.3/go.mod h1:zGPm8vWCqzvDqkdC1laFJNdIOjNSB8V4qDp68Ny538o=
+github.com/smallstep/cli v0.13.4-0.20191014220846-775cfe98ef76 h1:iNh6x3czCb/01npI8/o4UdvfmTXJkjwVsBOfcXWvmAs=
 github.com/smallstep/cli v0.13.4-0.20191014220846-775cfe98ef76/go.mod h1:zGPm8vWCqzvDqkdC1laFJNdIOjNSB8V4qDp68Ny538o=
 github.com/smallstep/nosql v0.1.1-0.20190924212324-f80b3f432de0 h1:9ruO770GHSBu8ktiAiCs4DW1wbnvm+Ur+syz7TJ8hvw=
 github.com/smallstep/nosql v0.1.1-0.20190924212324-f80b3f432de0/go.mod h1:MFhYHIE/0V7OOHjYzjnWHqySJ40PVbwhjy24UBkJI2g=

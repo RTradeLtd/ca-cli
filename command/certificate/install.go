@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/certinfo"
-	"github.com/smallstep/cli/command"
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/errs"
+	"github.com/RTradeLtd/ca-cli/command"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/smallstep/truststore"
 	"github.com/urfave/cli"
 )

@@ -6,7 +6,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/smallstep/certificates/authority"
 	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/cli/errs"
+	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/urfave/cli"
 )
 

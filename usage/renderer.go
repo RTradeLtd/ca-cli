@@ -11,7 +11,7 @@ import (
 	"unicode"
 
 	"github.com/samfoo/ansi"
-	md "github.com/smallstep/cli/pkg/blackfriday"
+	md "github.com/RTradeLtd/ca-cli/pkg/blackfriday"
 )
 
 // Render renders the given data with a custom markdown renderer.

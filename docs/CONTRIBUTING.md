@@ -23,7 +23,7 @@ issue tracker to ask questions.
 
 If you believe you have found a defect in `step cli` or its
 documentation, use the GitHub [issue
-tracker](https://github.com/smallstep/cli/issues) to report the
+tracker](https://github.com/RTradeLtd/ca-cli/issues) to report the
 problem. When reporting the issue, please provide the version of `step
 cli` in use (`step version`) and your operating system.
 
@@ -35,7 +35,7 @@ Authority. We encourage all contributions that meet the following criteria:
 * fit naturally into a Certificate Authority.
 * strive not to break existing functionality.
 * close or update an open [`step cli`
-issue](https://github.com/smallstep/cli/issues)
+issue](https://github.com/RTradeLtd/ca-cli/issues)
 
 **Bug fixes are, of course, always welcome.**
 

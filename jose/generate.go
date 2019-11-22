@@ -11,9 +11,9 @@ import (
 	"encoding/json"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/crypto/randutil"
-	"github.com/smallstep/cli/errs"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/crypto/randutil"
+	"github.com/RTradeLtd/ca-cli/errs"
 	"golang.org/x/crypto/ed25519"
 )
 

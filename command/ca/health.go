@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/cli/crypto/pki"
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/flags"
+	"github.com/RTradeLtd/ca-cli/crypto/pki"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/flags"
 	"github.com/urfave/cli"
 )
 

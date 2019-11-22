@@ -11,14 +11,14 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/cli/crypto/pki"
-	"github.com/smallstep/cli/crypto/randutil"
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/exec"
-	"github.com/smallstep/cli/jose"
-	"github.com/smallstep/cli/token"
-	"github.com/smallstep/cli/token/provision"
-	"github.com/smallstep/cli/ui"
+	"github.com/RTradeLtd/ca-cli/crypto/pki"
+	"github.com/RTradeLtd/ca-cli/crypto/randutil"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/exec"
+	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/RTradeLtd/ca-cli/token"
+	"github.com/RTradeLtd/ca-cli/token/provision"
+	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/urfave/cli"
 )
 

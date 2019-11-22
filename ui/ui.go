@@ -9,7 +9,7 @@ import (
 	"github.com/chzyer/readline"
 	"github.com/manifoldco/promptui"
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/randutil"
+	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 )
 
 // stderr implements an io.WriteCloser that skips the terminal bell character

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/cli/crypto/randutil"
+	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 )
 
 func TestKDF(t *testing.T) {

@@ -1,8 +1,8 @@
 package jose
 
 import (
-	"github.com/smallstep/cli/ui"
-	"github.com/smallstep/cli/utils"
+	"github.com/RTradeLtd/ca-cli/ui"
+	"github.com/RTradeLtd/ca-cli/utils"
 )
 
 type context struct {

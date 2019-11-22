@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/jose"
-	"github.com/smallstep/cli/token"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/jose"
+	"github.com/RTradeLtd/ca-cli/token"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/cli/config"
-	"github.com/smallstep/cli/errs"
+	"github.com/RTradeLtd/ca-cli/config"
+	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/urfave/cli"
 )
 

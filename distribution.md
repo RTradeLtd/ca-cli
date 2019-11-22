@@ -83,7 +83,7 @@ e.g. `v1.0.2`
     Travis will begin by verifying that there are no compilation or linting errors
     and then run the unit tests. Assuming all the checks have passed, Travis will
     build Darwin and Linux artifacts (for easily installing `step`) and upload them
-    as part of the [Github Release](https://github.com/smallstep/cli/releases).
+    as part of the [Github Release](https://github.com/RTradeLtd/ca-cli/releases).
 
     Travis will build and upload the following artifacts:
 
@@ -169,4 +169,4 @@ e.g. `v1.0.2`
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available,
-see the [tags on this repository](https://github.com/smallstep/cli).
+see the [tags on this repository](https://github.com/RTradeLtd/ca-cli).

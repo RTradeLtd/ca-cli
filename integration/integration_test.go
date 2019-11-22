@@ -22,7 +22,7 @@ const (
 
 func TestMain(m *testing.M) {
 	flag.Parse()
-	os.Setenv("PATH", os.Getenv("GOPATH")+"/src/github.com/smallstep/cli/bin"+":"+os.Getenv("PATH"))
+	os.Setenv("PATH", os.Getenv("GOPATH")+"/src/github.com/RTradeLtd/ca-cli/bin"+":"+os.Getenv("PATH"))
 	if err := os.Mkdir(TempDirectory, os.ModeDir|os.ModePerm); err != nil {
 		log.Fatal(err)
 	}

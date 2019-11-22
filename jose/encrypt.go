@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/randutil"
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/ui"
+	"github.com/RTradeLtd/ca-cli/crypto/randutil"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/ui"
 )
 
 // Thumbprint computes the JWK Thumbprint of a key using SHA256 as the hash

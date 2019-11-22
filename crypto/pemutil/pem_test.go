@@ -16,8 +16,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/cli/crypto/keys"
-	stepx509 "github.com/smallstep/cli/pkg/x509"
+	"github.com/RTradeLtd/ca-cli/crypto/keys"
+	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
 	"golang.org/x/crypto/ed25519"
 )
 

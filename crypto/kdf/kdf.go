@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/randutil"
+	"github.com/RTradeLtd/ca-cli/crypto/randutil"
 
 	"golang.org/x/crypto/argon2"
 	"golang.org/x/crypto/bcrypt"

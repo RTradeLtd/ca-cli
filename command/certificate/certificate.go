@@ -1,7 +1,7 @@
 package certificate
 
 import (
-	"github.com/smallstep/cli/command"
+	"github.com/RTradeLtd/ca-cli/command"
 	"github.com/urfave/cli"
 )
 

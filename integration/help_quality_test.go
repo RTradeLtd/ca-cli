@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/cli/usage"
+	"github.com/RTradeLtd/ca-cli/usage"
 )
 
 func TestHelpQuality(t *testing.T) {

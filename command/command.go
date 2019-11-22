@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/config"
-	"github.com/smallstep/cli/usage"
+	"github.com/RTradeLtd/ca-cli/config"
+	"github.com/RTradeLtd/ca-cli/usage"
 	"github.com/urfave/cli"
 )
 

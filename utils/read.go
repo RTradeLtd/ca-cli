@@ -10,8 +10,8 @@ import (
 	"unicode"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/ui"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/ui"
 )
 
 // In command line utilities, it is a de facto standard that a hyphen "-"

@@ -20,11 +20,11 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/command"
-	"github.com/smallstep/cli/crypto/randutil"
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/exec"
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-cli/command"
+	"github.com/RTradeLtd/ca-cli/crypto/randutil"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/exec"
+	"github.com/RTradeLtd/ca-cli/jose"
 	"github.com/urfave/cli"
 )
 

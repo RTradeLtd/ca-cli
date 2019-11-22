@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/pki"
-	"github.com/smallstep/cli/errs"
+	"github.com/RTradeLtd/ca-cli/crypto/pki"
+	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/urfave/cli"
 )
 

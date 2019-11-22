@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/smallstep/assert"
-	stepx509 "github.com/smallstep/cli/pkg/x509"
+	stepx509 "github.com/RTradeLtd/ca-cli/pkg/x509"
 )
 
 const p256Cert = `-----BEGIN CERTIFICATE-----

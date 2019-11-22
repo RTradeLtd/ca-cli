@@ -8,10 +8,10 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/cli/crypto/pki"
-	"github.com/smallstep/cli/errs"
-	"github.com/smallstep/cli/ui"
-	"github.com/smallstep/cli/utils"
+	"github.com/RTradeLtd/ca-cli/crypto/pki"
+	"github.com/RTradeLtd/ca-cli/errs"
+	"github.com/RTradeLtd/ca-cli/ui"
+	"github.com/RTradeLtd/ca-cli/utils"
 	"github.com/urfave/cli"
 )
 

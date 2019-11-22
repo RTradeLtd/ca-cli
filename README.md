@@ -8,15 +8,15 @@
 [Examples](#examples) |
 [Contribution Guide](./docs/CONTRIBUTING.md)
 
-[![GitHub release](https://img.shields.io/github/release/smallstep/cli.svg)](https://github.com/smallstep/cli/releases)
+[![GitHub release](https://img.shields.io/github/release/smallstep/cli.svg)](https://github.com/RTradeLtd/ca-cli/releases)
 [![Join the chat at https://gitter.im/smallstep/community](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/smallstep/community)
 [![CA Image](https://images.microbadger.com/badges/image/smallstep/step-cli.svg)](https://microbadger.com/images/smallstep/step-cli)
-[![Go Report Card](https://goreportcard.com/badge/github.com/smallstep/cli)](https://goreportcard.com/report/github.com/smallstep/cli)
+[![Go Report Card](https://goreportcard.com/badge/github.com/RTradeLtd/ca-cli)](https://goreportcard.com/report/github.com/RTradeLtd/ca-cli)
 [![Build Status](https://travis-ci.com/smallstep/cli.svg?branch=master)](https://travis-ci.com/smallstep/cli)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![CLA assistant](https://cla-assistant.io/readme/badge/smallstep/cli)](https://cla-assistant.io/smallstep/cli)
 
-[![GitHub stars](https://img.shields.io/github/stars/smallstep/cli.svg?style=social)](https://github.com/smallstep/cli/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/smallstep/cli.svg?style=social)](https://github.com/RTradeLtd/ca-cli/stargazers)
 [![Twitter followers](https://img.shields.io/twitter/follow/smallsteplabs.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=smallsteplabs)
 
 ![Animated terminal showing step in practice](https://smallstep.com/images/blog/2018-08-07-unfurl.gif)
@@ -89,9 +89,9 @@ Install `step` via [Homebrew](https://brew.sh/):
 
 #### Debian
 
-Download and install the latest Debian package from [releases](https://github.com/smallstep/cli/releases):
+Download and install the latest Debian package from [releases](https://github.com/RTradeLtd/ca-cli/releases):
 
-<pre><code><b>$ wget https://github.com/smallstep/cli/releases/download/vX.Y.Z/step_X.Y.Z_amd64.deb</b>
+<pre><code><b>$ wget https://github.com/RTradeLtd/ca-cli/releases/download/vX.Y.Z/step_X.Y.Z_amd64.deb</b>
 
 # Install the Debian package:
 <b>$ sudo dpkg -i step_X.Y.Z_amd64.deb</b></code></pre>

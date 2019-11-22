@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/cli/jose"
+	"github.com/RTradeLtd/ca-cli/jose"
 )
 
 const (

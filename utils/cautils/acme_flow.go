@@ -4,8 +4,8 @@ import (
 	"crypto/x509"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/cli/crypto/pemutil"
-	"github.com/smallstep/cli/ui"
+	"github.com/RTradeLtd/ca-cli/crypto/pemutil"
+	"github.com/RTradeLtd/ca-cli/ui"
 	"github.com/urfave/cli"
 )
 

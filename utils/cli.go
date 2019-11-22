@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/smallstep/cli/errs"
+	"github.com/RTradeLtd/ca-cli/errs"
 	"github.com/urfave/cli"
 )
 
