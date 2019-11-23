@@ -28,6 +28,7 @@ deploy:
   file_glob: true
   file: .travis-releases/*
   on:
+    tags: true
     repo: RTradeLtd/ca-cli
 cache:
   directories:
