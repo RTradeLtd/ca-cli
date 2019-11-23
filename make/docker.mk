@@ -15,7 +15,7 @@
 DOCKER_OUTPUT=$(OUTPUT_ROOT)docker/
 
 DOCKER_MAKE=V=$V GOOS_OVERRIDE='GOOS=linux GOARCH=amd64' PREFIX=$(1) make $(1)bin/$(2)
-DOCKER_BUILD=$Q docker build -t smallstep/$(1):latest -f docker/$(2) --build-arg BINPATH=$(DOCKER_OUTPUT)bin/step .
+DOCKER_BUILD=$Q docker build -t rtradetech/$(1):latest -f docker/$(2) --build-arg BINPATH=$(DOCKER_OUTPUT)bin/step .
 
 docker: docker-make docker/Dockerfile.step-cli
 	$(call DOCKER_BUILD,step-cli,Dockerfile.step-cli)
@@ -34,8 +34,8 @@ docker-make:
 # appropriate tags.
 #################################################
 
-DOCKER_TAG=docker tag smallstep/$(1):latest smallstep/$(1):$(2)
-DOCKER_PUSH=docker push smallstep/$(1):$(2)
+DOCKER_TAG=docker tag rtradetech/$(1):latest rtradetech/$(1):$(2)
+DOCKER_PUSH=docker push rtradetech/$(1):$(2)
 
 docker-tag:
 	$(call DOCKER_TAG,step-cli,$(VERSION))
